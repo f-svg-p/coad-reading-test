@@ -5,24 +5,24 @@ public class VariableNaming {
     /*
      * パターン1
      */
-    int first_number = 10;
-    int Second_Number = 20;
+    int firstNumber = 10;
+    int secondNumber = 20;
 
     /*
      * パターン2
      */
-    int a = 5;
-    int x = 3;
+    int thirdNumber = 5;
+    int fourthNumber = 3;
 
     /*
      * パターン3
      */
-    int return = 100;
+    int fifthNumber = 100;
 
-    int total_result = first_number + Second_Number;
-    int sum = a + x + return;
+    int firstSum = firstNumber + secondNumber;
+    int secondSum = thirdNumber + fourthNumber + fifthNumber;
 
-    System.out.println(total_result);
-    System.out.println(sum);
+    System.out.println(firstSum);
+    System.out.println(secondSum);
   }
 }
